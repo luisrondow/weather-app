@@ -26,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
 export const PageWrapper = styled.div`
   width: 100%;
   display: flex;
+  justify-content: center;
   flex: 1;
   max-width: ${SCREEN_MAX_WIDTH}px;
   position: relative;

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Home from './container/Homes'
+import Home from './container/Home'
 import { GlobalStyle } from './styles/global'
 
 const App = () => (
