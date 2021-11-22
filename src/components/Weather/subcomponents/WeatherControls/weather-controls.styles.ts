@@ -11,4 +11,10 @@ export const Container = styled.div`
   margin-bottom: 2rem;
 `
 
-export const TemperatureSwitch = styled.div``
+export const TemperatureSwitch = styled.div`
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`
