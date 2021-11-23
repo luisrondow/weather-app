@@ -26,7 +26,7 @@ export const WeatherControls = (props: WeatherControlsProps) => {
   }
 
   return (
-    <Styles.Container>
+    <Styles.Container data-testid="weather-controls">
       <Select options={CITIES} onChange={handleSelectChange} />
       <Styles.TemperatureSwitch>
         <Text color={'#FFF'}>°C</Text>

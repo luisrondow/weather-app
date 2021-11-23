@@ -35,7 +35,7 @@ export const Weather = () => {
   }, [weather, temperatureSwitch])
 
   return (
-    <Styles.Container>
+    <Styles.Container data-testid="weather">
       <WeatherControls temperatureSwitch={temperatureSwitch} setTemperatureSwitch={setTemperatureSwitch} />
       {loading ? (
         <Spinner />

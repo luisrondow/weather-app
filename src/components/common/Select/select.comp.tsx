@@ -7,9 +7,9 @@ export const Select = (props: SelectProps) => {
   const { options, onChange } = props
 
   return (
-    <Styles.Select onChange={(e) => onChange(e.target.value)}>
+    <Styles.Select data-testid="select" onChange={(e) => onChange(e.target.value)}>
       {options.map((option) => (
-        <Styles.Option key={option.value} value={option.value}>
+        <Styles.Option data-testid="select-option" key={option.value} value={option.value}>
           {option.label}
         </Styles.Option>
       ))}
